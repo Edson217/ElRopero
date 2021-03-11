@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/tabs/tab2">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Cliente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+    
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Nombre">
+    </div>
+    <div class="form-group">     
+      <input type="text" class="form-control" placeholder="Dirección">
+    </div>
+    <div class="form-group">     
+      <input type="text" class="form-control" placeholder="Teléfono">
+    </div>   
+    <div class="form-group">     
+      <textarea class="form-control" cols="10" rows="5" placeholder="Prendas"></textarea>
+    </div> 
+    <div class="form-group">     
+      <input type="text" class="form-control" placeholder="Total de Compra">
+    </div>
+    <div class="form-group">     
+      <ion-button expand="block" (click)="registered()">Añadir Cliente</ion-button>
+    </div>
+  </form>
+
+  </ion-card>
+
+</ion-content>
+

@@ -1,0 +1,23 @@
+ion-card{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: -7em;
+}
+.tc{
+    text-decoration: none;
+    color: green;
+    float: right;
+}
+.tr{
+    text-decoration: none;
+    color: red;
+    float: right;
+}
+.date{
+    text-decoration: none;
+    float: right;
+}
+ion-buttons, ion-searchbar{
+    margin-top: 10px;
+}

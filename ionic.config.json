@@ -1,0 +1,10 @@
+{
+  "name": "El-Ropero",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
